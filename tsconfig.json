@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/ts-src",
+        "module": "es6",
+        "target": "es6",
+        "jsx": "preserve",
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "webpack.config.js"
+    ],
+    "files": [
+        "./typings/index.d.ts",
+        // do i have to provide a entry file? probably add just the src dir insted
+        "./src/index.jsx"
+    ]
+}
